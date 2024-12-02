@@ -1,0 +1,261 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Kawan Mitra Sejati
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto">
+  <!-- Navbar -->
+  <nav class="bg-blue-900 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <a class="text-2xl font-bold" href="#">
+     Kawan Mitra Sejati
+    </a>
+    <ul class="hidden md:flex space-x-6">
+     <li>
+      <a class="hover:text-gray-300" href="#">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-300" href="#">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-300" href="#">
+       Services
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-300" href="#">
+       Contact
+      </a>
+     </li>
+    </ul>
+    <div class="md:hidden">
+     <button class="text-white focus:outline-none" id="menu-btn">
+      <i class="fas fa-bars">
+      </i>
+     </button>
+    </div>
+   </div>
+  </nav>
+  <!-- Mobile Menu -->
+  <div class="hidden bg-blue-900 text-white p-4" id="mobile-menu">
+   <ul class="space-y-4">
+    <li>
+     <a class="block hover:text-gray-300" href="#">
+      Home
+     </a>
+    </li>
+    <li>
+     <a class="block hover:text-gray-300" href="#">
+      About
+     </a>
+    </li>
+    <li>
+     <a class="block hover:text-gray-300" href="#">
+      Services
+     </a>
+    </li>
+    <li>
+     <a class="block hover:text-gray-300" href="#">
+      Contact
+     </a>
+    </li>
+   </ul>
+  </div>
+  <!-- Hero Section -->
+  <section class="relative">
+   <img alt="A large cargo ship sailing in the ocean with containers stacked on it" class="w-full h-96 object-cover" height="1080" src="https://storage.googleapis.com/a1aa/image/fmij9rB2kenl7kYOuxHNvqNvEZ2Z7P3XkoaggjjWWk01jt2TA.jpg" width="1920"/>
+   <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="text-center text-white">
+     <h1 class="text-4xl md:text-6xl font-bold">
+      Welcome to Kawan Mitra Sejati
+     </h1>
+     <p class="mt-4 text-lg md:text-2xl">
+      Your trusted partner in global logistics
+     </p>
+     <a class="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded" href="#">
+      Learn More
+     </a>
+    </div>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section class="py-12 bg-gray-100">
+   <div class="container mx-auto px-4">
+    <div class="text-center mb-8">
+     <h2 class="text-3xl font-bold">
+      About Us
+     </h2>
+     <p class="mt-4 text-gray-600">
+      We are dedicated to providing reliable and efficient logistics solutions.
+     </p>
+    </div>
+    <div class="flex flex-wrap -mx-4">
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <img alt="A team of logistics professionals working together in an office" class="w-full h-64 object-cover rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/eKAzJ8i8jrzIJij99e8HgJObHNOaGWEmxV7Shfr8rMRlHbtnA.jpg" width="400"/>
+      <h3 class="mt-4 text-xl font-bold">
+       Our Team
+      </h3>
+      <p class="mt-2 text-gray-600">
+       A group of dedicated logistics professionals.
+      </p>
+     </div>
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <img alt="A fleet of cargo trucks ready for transportation" class="w-full h-64 object-cover rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/NHcQul2qh3rNApPU28ZyCWXTYEbaCWxii0ICCzSTaHtexW7JA.jpg" width="400"/>
+      <h3 class="mt-4 text-xl font-bold">
+       Our Fleet
+      </h3>
+      <p class="mt-2 text-gray-600">
+       Modern and well-maintained fleet of vehicles.
+      </p>
+     </div>
+     <div class="w-full md:w-1/3 px-4">
+      <img alt="A logistics professional planning routes on a map" class="w-full h-64 object-cover rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/x6ec1F9Xzs0Nf0DeBk4bIIUfDO0BgoWKsf7VNs4PSfLSexW7JA.jpg" width="400"/>
+      <h3 class="mt-4 text-xl font-bold">
+       Our Mission
+      </h3>
+      <p class="mt-2 text-gray-600">
+       To provide seamless and efficient logistics solutions.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Services Section -->
+  <section class="py-12">
+   <div class="container mx-auto px-4">
+    <div class="text-center mb-8">
+     <h2 class="text-3xl font-bold">
+      Our Services
+     </h2>
+     <p class="mt-4 text-gray-600">
+      We offer a wide range of logistics services to meet your needs.
+     </p>
+    </div>
+    <div class="flex flex-wrap -mx-4">
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+       <img alt="A cargo ship loaded with containers" class="w-full h-48 object-cover rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/yRGJXqopYO7GJxDHffDnee5OH1cxnzCmj3iJLIV5C42MP2aPB.jpg" width="400"/>
+       <h3 class="mt-4 text-xl font-bold">
+        Sea Freight
+       </h3>
+       <p class="mt-2 text-gray-600">
+        Reliable and efficient sea freight services.
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+       <img alt="A cargo plane ready for loading" class="w-full h-48 object-cover rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/SDe0wPAw7F2oU6hcthOg8PTYIfQeeRuBtbefGW99npQGexW7JA.jpg" width="400"/>
+       <h3 class="mt-4 text-xl font-bold">
+        Air Freight
+       </h3>
+       <p class="mt-2 text-gray-600">
+        Fast and secure air freight services.
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 px-4">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+       <img alt="A cargo truck on the road" class="w-full h-48 object-cover rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/18c77gbnZsbQK5BOCkfZPxG1Mn6fIUFhCF4GwCxfyeBsP2aPB.jpg" width="400"/>
+       <h3 class="mt-4 text-xl font-bold">
+        Road Transport
+       </h3>
+       <p class="mt-2 text-gray-600">
+        Efficient and reliable road transport services.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="py-12 bg-gray-100">
+   <div class="container mx-auto px-4">
+    <div class="text-center mb-8">
+     <h2 class="text-3xl font-bold">
+      Contact Us
+     </h2>
+     <p class="mt-4 text-gray-600">
+      Get in touch with us for more information.
+     </p>
+    </div>
+    <div class="flex flex-wrap -mx-4">
+     <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
+      <form>
+       <div class="mb-4">
+        <label class="block text-gray-700" for="name">
+         Name
+        </label>
+        <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="name" type="text"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700" for="email">
+         Email
+        </label>
+        <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="email" type="email"/>
+       </div>
+       <div class="mb-4">
+        <label class="block text-gray-700" for="message">
+         Message
+        </label>
+        <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="message"></textarea>
+       </div>
+       <button class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded" type="submit">
+        Send Message
+       </button>
+      </form>
+     </div>
+     <div class="w-full md:w-1/2 px-4">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+       <h3 class="text-xl font-bold">
+        Our Office
+       </h3>
+       <p class="mt-2 text-gray-600">
+        Jl. Raya Narogong Bekasi Km. 19.5. Cileungsi, Bogor Jawa Barat
+       </p>
+       <p class="mt-4 text-gray-600">
+        <i class="fas fa-phone-alt">
+        </i>
+        +62 822-9827-5969
+       </p>
+       <p class="mt-2 text-gray-600">
+        <i class="fas fa-envelope">
+        </i>
+        kawanmitrasejati.cta24@gmail.com
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6">
+   <div class="container mx-auto px-4 text-center">
+    <p>
+     © 2023 Kawan Mitra Sejati. All rights reserved.
+    </p>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('menu-btn').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+  </script>
+ </body>
+</html>
